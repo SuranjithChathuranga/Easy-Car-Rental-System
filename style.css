@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.cars, .booking {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.car-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.car-card button {
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.car-card button:hover {
+  background: #15803d;
+}
+
+.booking button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #ddd;
+}
